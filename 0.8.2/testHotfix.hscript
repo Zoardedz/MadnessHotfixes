@@ -1,0 +1,7 @@
+var PlayState = require("PlayState").instance;
+var FlxText = require("flixel.text.FlxText");
+
+function create(){
+	var text:FlxText = new FlxText(100, 100, 0, "hey dude im res_101", 18);
+	PlayState.add(text);
+}
